@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Giornali Italiani</string>
+	<string name="settings">Preferenze</string>
+	<string name="img">Carica immagini</string>
+	<string name="imgon">Le immagini verranno caricate</string>
+	<string name="imgoff">Le immagini non verranno caricate</string>
+	<string name="flashod">Carica Flash su richiesta</string>
+	<string name="flashodon">I contenuti Flash saranno visualizzati solo su richiesta (più veloce)</string>
+	<string name="flashodoff">I contenuti Flash saranno visualizzati automaticamente (più lento)</string>
+	<string name="cache">Conserva cache</string>
+	<string name="cacheon">La cache verrà mantenuta</string>
+	<string name="cacheoff">La cache non verrà mantenuta</string>
+	<string name="cachepath">Posizione cache</string>
+	<string name="cachepathl">Scegli dove conservare i files temporanei</string>
+	<string name="cacheerr">Errore nella creazione della cache</string>
+	<string name="info">Cancella cache</string>
+	<string name="infol">Calcolo dimensione in corso…</string>
+	<string name="size">Dimensione cache:</string>
+	<string-array name="paths">
+		<item>Telefono</item>
+		<item>Memory Card</item>
+	</string-array>
+	<string-array name="pathsv">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+	<string-array name="siti">
+		<item>Home</item>
+		<item>Il Corriere della Sera</item>
+		<item>La Repubblica</item>
+		<item>La Gazzetta dello Sport</item>
+	</string-array>
+	<string-array name="urls">
+		<item></item>
+		<item>http://www.corriere.it/</item>
+		<item>http://www.repubblica.it/</item>
+		<item>http://www.gazzetta.it/</item>
+	</string-array>
+	<string name="refresh">Refresh</string>
+	<string name="share">Share</string>
+</resources>

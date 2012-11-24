@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/toolbar">
+		<ImageButton android:id="@+id/refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/refresh" android:padding="8dp" android:contentDescription="@string/refresh"/>
+		<ImageButton android:id="@+id/share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share" android:padding="8dp" android:contentDescription="@string/share"/>
+		<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/settings" android:padding="8dp" android:src="@drawable/settings" android:contentDescription="@string/settings"/>
+		<Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/selector" android:entries="@array/siti"/>
+	</LinearLayout>
+	<com.google.ads.AdView
+		android:id="@+id/adView"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		ads:adUnitId="a14cae2cdf52709"
+		ads:adSize="SMART_BANNER"
+		ads:loadAdOnCreate="true"/>
+	<WebView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/content"/>
+</LinearLayout>
