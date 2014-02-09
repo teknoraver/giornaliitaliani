@@ -12,7 +12,7 @@
 	</LinearLayout>
 	<com.google.ads.AdView
 		android:id="@+id/adView"
-		android:layout_width="wrap_content" 
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		ads:adUnitId="a14cae2cdf52709"
 		ads:adSize="SMART_BANNER"
